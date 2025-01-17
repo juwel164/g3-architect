@@ -164,7 +164,7 @@ nav, .banner{
 .facts_container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   margin-top: 60px;
   
@@ -227,6 +227,9 @@ nav, .banner{
   .banner_title{
     font-size: 1.5rem;
   }
+  .banner_description{
+    width: 100%;
+  }
   .banner_content{
     max-width: 100%;
   }
@@ -251,6 +254,9 @@ nav, .banner{
   .teams{
     flex-direction: column;
     
+  }
+  .banner_description{
+    width: 100%;
   }
   .team_image_container{
     max-width: 100%;
