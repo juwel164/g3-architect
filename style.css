@@ -164,7 +164,10 @@ nav, .banner{
 .facts_container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
   margin-top: 60px;
+  
 }
 
 .fact{
@@ -232,17 +235,19 @@ nav, .banner{
     gap: 20px;
   }
   .fact{
-    width: 150px;
+    width: 130px;
   }
   .fact_description{
     width: 100%;
   }
   .facts_container{
+    margin: 0 auto;
     margin-top: 40px;
+
   }
 }
 
-@media screen and (min-width:576px) and (max-width:1024px) {
+@media screen and (min-width:577px) and (max-width:1024px) {
   .teams{
     flex-direction: column;
     
